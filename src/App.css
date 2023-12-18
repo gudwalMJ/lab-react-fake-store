@@ -12,7 +12,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #3B82F6;
+  background-color: #3b82f6;
 }
 
 /* Secondary Button */
@@ -25,9 +25,8 @@
 }
 
 .btn-secondary:hover {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
-
 
 /* Spacing utilities */
 .spacing-xs {
@@ -80,4 +79,34 @@
 
 .content.shifted {
   margin-left: 250px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* A darker shade for hover effect */
+  color: white;
+  text-decoration: none; /* Ensures the text doesn't get underlined on hover */
+}
+
+.product-category {
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: #007bff;
+  border-radius: 2px;
+  padding: 3px 6px;
+  display: inline-block; /* To make the background fit the text */
+  margin-bottom: 10px; /* Add some space below the category */
+  color: white;
 }
